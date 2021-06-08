@@ -1,7 +1,5 @@
 # swap
 
-
-
 create 100-GB swap file:
 ```bash
 sudo fallocate -l 100G /swapfile
@@ -28,9 +26,10 @@ check ram:
 free -h
 ```
 
+### swap off
 
-
-
-
-
+comment `/swap.img` line and `reboot`
+```bash
+sudo vim /etc/fstab
+```
 

@@ -30,6 +30,7 @@ free -h
 
 comment `/swap.img` line and `reboot`
 ```bash
+sudo swapoff -a
 sudo vim /etc/fstab
 ```
 

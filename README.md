@@ -34,3 +34,9 @@ sudo swapoff -a
 sudo vim /etc/fstab
 ```
 
+Add the following line:
+```
+/swapfile none swap sw 0 0
+```
+
+

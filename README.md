@@ -21,6 +21,11 @@ sudo swapon /swapfile
 sudo swapon --show
 ```
 
+Add the following line:
+```
+/swapfile none swap sw 0 0
+```
+
 check ram:
 ```bash
 free -h
@@ -34,9 +39,5 @@ sudo swapoff -a
 sudo vim /etc/fstab
 ```
 
-Add the following line:
-```
-/swapfile none swap sw 0 0
-```
 
 

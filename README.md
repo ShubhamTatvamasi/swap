@@ -39,5 +39,9 @@ sudo swapoff -a
 sudo vim /etc/fstab
 ```
 
+Delete `/swapfile` file:
+```bash
+sudo rm /swapfile
+```
 
 
